@@ -3,3 +3,37 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+.app-btn {
+  width: 45%;
+  max-width: 160px;
+  color: #fff;
+  margin: 10px;
+  text-align: left;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.big-txt {
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.blu {
+  background-color: #101010;
+  transition: background-color 0.25s linear;
+}
+
+i {
+  width: 20%;
+  text-align: center;
+  font-size: 28px;
+  margin-right: 7px;
+}
+
+.blu:hover {
+  background-color: #454545;
+  color: white;
+}
