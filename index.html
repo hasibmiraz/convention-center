@@ -40,12 +40,13 @@
             <a href="#" class="nav-item nav-link fw-bold">Home</a>
             <a href="#" class="nav-item nav-link fw-bold">About Us</a>
             <a href="#" class="nav-item nav-link fw-bold">Contact Us</a>
-            <a href="#" class="nav-item nav-link fw-bold">Subscribe</a>
+            <a href="#subscribe" class="nav-item nav-link fw-bold">Subscribe</a>
           </div>
         </div>
       </div>
     </nav>
     <!-- Navbar End -->
+
     <!-- Header Carousel -->
     <header class="container-fluid px-0 py-3">
       <div
@@ -145,7 +146,7 @@
 
     <!-- Main Section -->
     <main>
-
+      <!-- Toast -->
       <div class="container-fluid d-flex justify-content-end">
         <div class="toast show">
           <div class="toast-header">
@@ -156,8 +157,8 @@
             <p>Click here to get 20% off on our winter offer!</p>
           </div>
         </div>
-            </div>
       </div>
+      <!-- Toast End -->
       <!-- Pricing -->
       <section class="my-5">
         <h2 class="text-center fw-bold">Our Packages</h2>
@@ -282,7 +283,7 @@
       <!-- Pricing End -->
 
       <!-- Subscribe -->
-      <section>
+      <section id="subscribe">
         <div class="container">
           <h1 class="text-center fw-bold my-4">Subscribe Now</h1>
           <div class="row g-3">
@@ -407,27 +408,20 @@
     <!-- Footer -->
     <footer class="bg-dark footer">
      <div class="container">
-       <div class="row">
-         <div class="col-md-6 d-flex align-items-center">
+       <div class="d-flex justify-content-between align-items-center flex-wrap">
            <div class="">
              <p class="text-light">&copy; 2020 bike. All rights reserved</p>
            </div>
-         </div>
-          <div class="col-md-6 my-3">
-          <h4 class="text-light">Get the app</h4>
-           <div>
-             <div class="d-flex flex-column flex-md-row social-btns">
-                <a class="app-btn  blu d-flex align-items-center justify-content-between vert px-3 pt-2" href="https://apps.apple.com/app/id288429040?fbclid=IwAR1SN-9oFteRV75jfiXGBqN4u00Zcu0rK1CxQuL2Ew_2OhPMbwJXsi3XmC4" target="_blank">
-                  <i class="fab fa-apple"></i>
-                  <p>Available on the <br/> <span class="big-txt">App Store</span></p>
-                </a>
-                <a class="app-btn blu d-flex align-items-center justify-content-between vert px-3 pt-2" href="https://play.google.com/store/apps/details?id=com.spotify.music" target="_blank">
-                  <i class="fab fa-google-play"></i>
-                  <p>Get it on <br/> <span class="big-txt">Google Play</span></p>
-                </a>
-              </div>
-           </div>
-       </div>
+          <div class="text-center">
+            <h4 class="text-light">Get the app</h4>
+
+            <a href="https://play.google.com/store/apps/details?id=com.spotify.music" target="_blank">
+              <img src="./icons/google-play.png" alt=""  class="w-25 img-fluid">
+            </a>
+            <a href="https://apps.apple.com/app/id288429040?fbclid=IwAR1SN-9oFteRV75jfiXGBqN4u00Zcu0rK1CxQuL2Ew_2OhPMbwJXsi3XmC4" target="_blank" class="decoration-none">
+              <img src="./icons/app-store.png" alt=""  class="w-25 img-fluid">
+            </a>
+        </div>
      </div>
     </footer>  
     <!-- Footer End -->
@@ -438,8 +432,5 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <script>
-      toast.show()
-    </script>
   </body>
 </html>
